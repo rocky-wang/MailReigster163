@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 12px;
+}
+
+.header {
+    width: 960px;
+    height: 81px;
+    margin: 0 auto;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.header .banner{
+    width: 644px;
+    height: 27px;
+    background: url("../images/glb_v2.png") no-repeat 0 0;
+    float: left;
+}
+
+.banner a {
+    display: inline-block;
+    width: 128px;
+    height: 27px;
+    float: left;
+}
+
+.header .links{
+    float: right;
+    height: 27px;
+    width: 300px;
+    text-align: right;
+}
+
+.header .links a{
+    line-height: 27px;
+    margin: 0 5px;
+    color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #039;
+}
+
+.content{
+    width: 960px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.content-title{
+    height: 36px;
+    background-color: #6495c6;
+    border: #5B88B8 1px solid;
+    border-radius: 3px 3px 0 0;
+}
+
+footer{
+
+}
